@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #8b47e4;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #a773eb;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #76377e;
 }
 
 #preloader:before {
@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid #ffc107;
+  border-top-color: #9c23ff;
+  border-bottom-color: #9c23ff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -92,8 +92,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #47b2e4;
-  color: #fff;
+  background: #ffc107;
+  color: rgb(0, 0, 0);
   transition: all 0.4s;
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #691b9ac7;
 }
 
 #header .logo {
@@ -120,9 +120,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: 'Nunito', sans-serif !important;
+
 }
 
 #header .logo a {
@@ -165,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #47b2e4;
+  color: #e4bf47;
 }
 
 .nav-menu .drop-down ul {
@@ -256,12 +258,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #47b2e4;
+  border: 2px solid #e4bf47;
   font-weight: 600;
 }
 
 .get-started-btn:hover {
-  background: #31a9e1;
+  background: #e2ba34;
   color: #fff;
 }
 
@@ -324,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #47b2e4;
+  color: #aa47e4;
   text-decoration: none;
 }
 
@@ -385,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #6a1b9a;
 }
 
 #hero .container {
@@ -416,12 +418,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
-  background: #47b2e4;
+  color: #000000;
+  background: #ffc107;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #d19d00;
 }
 
 #hero .btn-watch-video {
@@ -529,7 +531,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: #f7f3fa;
 }
 
 .section-title {
@@ -544,7 +546,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #6a377e;
 }
 
 .section-title h2::before {
@@ -564,7 +566,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #8b47e4;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -670,7 +672,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #56377e;
 }
 
 .why-us .content h4 {
@@ -721,7 +723,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #9847e4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -748,7 +750,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #a547e4;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -1657,7 +1659,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #5c377e;
 }
 
 #footer .footer-newsletter {
@@ -1743,7 +1745,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #6a1b9a;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1840,3 +1842,36 @@ section {
     padding-top: 4px;
   }
 }
+
+/*--------------------------------------------------------------
+# Custom fonts
+--------------------------------------------------------------*/
+.font-nunito {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.font-footer {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: lowercase !important;
+  color: #6a1b9a !important;
+}
+
+/*--------------------------------------------------------------
+# Custom font colours
+--------------------------------------------------------------*/
+.text-cyan {
+  color: #0BE6AF;
+}
+
+.text-gold {
+  color: #a08800;
+}
+
+/*--------------------------------------------------------------
+# Custom background colours
+--------------------------------------------------------------*/
+.bg-cyan {
+  background-color: #0BE6AF;
+}
+

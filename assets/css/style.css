@@ -927,6 +927,15 @@ section {
     color: #6947e4;
 }
 
+.services .icon-img  {
+    display: block;
+    margin: auto;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    max-width: 2em;
+   
+}
+
 
 /*--------------------------------------------------------------
 # Cta

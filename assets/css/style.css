@@ -101,8 +101,8 @@ h6 {
 }
 
 .back-to-top i:hover {
-    background: #209dd8;
-    color: #fff;
+    background: #ce9b02;
+    color: #ffffff;
 }
 
 
@@ -902,6 +902,7 @@ section {
 }
 
 .services .icon-box h4 {
+    color: #62377e;
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
@@ -1030,7 +1031,7 @@ section {
     z-index: 3;
     right: 15px;
     transition: all 0.3s;
-    background: rgba(55, 81, 126, 0.8);
+    background: #5e377ecc;
     padding: 10px 15px;
 }
 
@@ -1823,7 +1824,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #47b2e4;
+    color: #9847e4;
     font-size: 18px;
     line-height: 1;
 }
@@ -1847,7 +1848,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #47b2e4;
+    color: #9047e4;
 }
 
 #footer .footer-top .social-links a {

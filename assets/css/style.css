@@ -121,6 +121,10 @@ h6 {
     background: #691b9ac7;
 }
 
+.header-inner-pages {
+    background: #691b9ac7;
+}
+
 #header .logo {
     font-size: 30px;
     margin: 0;
@@ -1608,7 +1612,7 @@ section {
 .breadcrumbs h2 {
     font-size: 28px;
     font-weight: 600;
-    color: #37517e;
+    color: #5c377e;
 }
 
 .breadcrumbs ol {

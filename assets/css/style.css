@@ -179,6 +179,12 @@ h6 {
     font-family: "Open Sans", sans-serif;
 }
 
+.nav-logo {
+    height: 1em;
+    margin-right: 0.3em;
+    margin-top: -0.2em;
+}
+
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {

@@ -1972,3 +1972,7 @@ section {
 .bg-cyan {
     background-color: #0BE6AF;
 }
+
+.bg-lightpink {
+    background-color: #F7F3FA !important;
+}
